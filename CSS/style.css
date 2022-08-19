@@ -1,52 +1,87 @@
 body, html {
     height: 100%;
+    background-color: #fceedd !important;
 }
 
+
+nav{
+    background-color: #494230;
+
+}
+
+
+div.card {
+  background: #C9A34D;
+  border: 2px solid #225503;
+  min-height: 350px;
+  max-height:fit-content;
+  padding:1em;
+  box-shadow: -1px -1px 20px 0px #000000;
+  margin-top:6em;
+  margin-bottom:2em;
+}
+
+
+/* heading for container buttons */
+.flex-h1 {
+  text-align: center;
+  padding: .5em;
+  margin: 1em 1em;
+  font-size:x-large !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:bolder;
+  color:#ffffff;
+  letter-spacing: 1px;
+
+  
+}
+
+
  /* Style the top navigation bar */
- .topnav {
+ /* .topnav {
     display:flex;
     background-color: #363836da;
     position: sticky; /* Make it stick, even on scroll */
-    margin: 14px 0px 5px 0px;
-  }
+    /* margin: 14px 0px 5px 0px;
+  } */ 
   
   /* Style the topnav links */
-  .topnav a { 
+  /* .topnav a { 
     text-align: center;
     text-decoration: none;    
     border-right: 1px solid #a6a6a61e; /*Tab dividers*/
-    transition-duration: 0.9s;
+    /* transition-duration: 0.9s;
     color: #ffffff;
     text-shadow: 2px 2px 4px #0c0c0c;
-  }
+  } */ 
 
-  .topnav h3{
+  /* .topnav h3{
     text-align: left;
     color:#ffffff;
     text-shadow: 2px 2px 4px #0c0c0c;
-  }
+  } */
 
   /* Remove border from last list item */
-  a:last-child {
+  /* a:last-child {
     border-right: none;
-  }
+  } */
 
    /* Active tab  */
-   .active {
+   /* .active {
     background-color: #43b047;
     color: #ffffff;
-  }
+  } */
   
   
   /* Change color on hover */
-  .topnav a:hover:not(.active) {
+  /* .topnav a:hover:not(.active) {
     background-color: #505050;
     color: #b8b8b8;
-  }
+  } */
 
   .parallax-1 {
     /* The image used */
-    background-color:red;
+    background-image: url('../images/GOPR0795.JPG');
   
     /* Full height */
     height: 100%; 
@@ -59,8 +94,8 @@ body, html {
   }
 
   .parallax-2 {
-    /* The image used */
-    background-color:aqua;
+     /* The image used */
+     background-image: url('../images/GOPR0809.JPG');
   
     /* Full height */
     height: 100%; 
@@ -75,48 +110,6 @@ body, html {
   .parallax-3 {
     /* The image used */
     background-image: url('../images/GOPR0795.JPG');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax-4 {
-    /* The image used */
-    background-image: url('../images/GOPR0808.JPG');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax-5 {
-    /* The image used */
-    background-image: url('../images/G0070798.JPG');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax-6 {
-    /* The image used */
-    background-image: url('../images/GOPR0809.JPG');
   
     /* Full height */
     height: 100%; 
@@ -185,5 +178,41 @@ body, html {
   .item1{
     padding:25px;
   }
+
+
+  .footer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:#494230;
+    color: #E8D3A9;
+    flex-direction: column;
+    padding:1em;
+   
+    
+}
+
+.footer-item {
+    background: #BCBFA3;
+    border-style:double;
+    border-color: #E8D3A9;
+    border-radius: .25em;
+    color: #6e6460;
+    font-weight: bold;
+    font-size: 1.5em;
+    width:100%;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px #000000, -1px -1px 2px 1px #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+.fa-brands{
+    color:#ffffff;
+    font-size:3em;
+    
+}
 
  
