@@ -1,0 +1,41 @@
+.parallax-1 {
+    /* The image used */
+    background-image: url("../images/GOPR0495\ -\ Copy.JPG");
+  
+    /* Set a specific height */
+      min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url("../images/GOPR0503\ -\ Copy.JPG");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-3 {
+    /* The image used */
+    background-image: url("../images/pexels-vincent-gerbouin-1174732.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

@@ -1,0 +1,189 @@
+body, html {
+    height: 100%;
+}
+
+ /* Style the top navigation bar */
+ .topnav {
+    display:flex;
+    background-color: #363836da;
+    position: sticky; /* Make it stick, even on scroll */
+    margin: 14px 0px 5px 0px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a { 
+    text-align: center;
+    text-decoration: none;    
+    border-right: 1px solid #a6a6a61e; /*Tab dividers*/
+    transition-duration: 0.9s;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #0c0c0c;
+  }
+
+  .topnav h3{
+    text-align: left;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #0c0c0c;
+  }
+
+  /* Remove border from last list item */
+  a:last-child {
+    border-right: none;
+  }
+
+   /* Active tab  */
+   .active {
+    background-color: #43b047;
+    color: #ffffff;
+  }
+  
+  
+  /* Change color on hover */
+  .topnav a:hover:not(.active) {
+    background-color: #505050;
+    color: #b8b8b8;
+  }
+
+  .parallax-1 {
+    /* The image used */
+    background-color:red;
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-color:aqua;
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-3 {
+    /* The image used */
+    background-image: url('../images/GOPR0795.JPG');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-4 {
+    /* The image used */
+    background-image: url('../images/GOPR0808.JPG');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-5 {
+    /* The image used */
+    background-image: url('../images/G0070798.JPG');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-6 {
+    /* The image used */
+    background-image: url('../images/GOPR0809.JPG');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/collab-practice-22-06/images/GOPR0771.JPG");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: relative;
+    color: rgb(244, 233, 233);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    font-weight: bold;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .section{
+    padding:25px;
+    text-align:center;
+    
+  }
+
+  .item{
+    flex-grow: 1;
+    padding:25px;
+  }
+
+  .item1{
+    padding:25px;
+  }
+
+ 
