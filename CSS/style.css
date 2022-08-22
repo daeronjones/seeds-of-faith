@@ -9,9 +9,13 @@ nav{
 
 }
 
+.bg-brown{
+    background-color: #494230d2;
+}
+
 
 div.card {
-  background: #c9a44dbd;
+  background: #94b498c5;
   border: 2px solid #225503;
   min-height: 350px;
   max-height:fit-content;
@@ -84,7 +88,7 @@ div.card {
   
 .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunflower-close-up.jpg");
-    height: 50%;
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
