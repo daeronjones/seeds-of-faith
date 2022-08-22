@@ -14,7 +14,70 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Gallery</title>
+
+    <style>
+        body {
+            background-image: url('./images/sunflower-baby.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ul.pics {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        }
+
+        li.pics {
+        height: 40vh;
+        flex-grow: 1;
+        }
+
+        li.pics:last-child {
+        flex-grow: 10;
+        }
+
+        img {
+        max-height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+        }
+
+        @media (max-aspect-ratio: 1/1) {
+            li.pics {
+                height: 30vh;
+            }
+        }
+
+
+        @media (max-height: 480px) {
+            li.pics {
+                height: 80vh;
+            }
+        }
+
+     
+        @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+            ul.pics {
+                flex-direction: row;
+            }
+
+            li.pics {
+                height: auto;
+                width: 100%;
+            }
+            
+            img {
+                width: 100%;
+                max-height: 75vh;
+                min-width: 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -53,6 +116,28 @@
         <div class="container">
             <div class="card">
                 <h1 class="flex-h1">GALLERY</h1>
+                <ul class="pics">
+                    <li class="pics">
+                      <img src="./images/Tesa-halloween-party.jpg" alt="Kids in halloween costumes" loading="lazy">
+                    </li>
+                    <li class="pics">
+                      <img src="./images/Tesa-shiloh.jpg" alt="toddler on light up dance floor" loading="lazy">
+                    </li>
+                    <li class="pics">
+                      <img src="./images/Tesa-with-kids.jpg" alt="kids at a party with auntie" loading="lazy">
+                    </li>
+                    <li class="pics">
+                      <img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05588_nb0dma.jpg" alt="XOXO venue in between talks" loading="lazy">
+                    </li>
+                    <li class="pics">
+                      <img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05459_ziuomy.jpg" alt="Trees lit by green light during dusk" loading="lazy">
+                    </li>
+                    <li class="pics">
+                      <img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05586_oj8jfo.jpg" alt="Portrait of Justin Pervorse" loading="lazy">
+                    </li>
+                    <!--  Adding an empty <li> here so the final photo doesn't stretch like crazy. Try removing it and see what happens!  -->
+                    <li class="pics"></li>
+                  </ul>
         
                 
             </div>

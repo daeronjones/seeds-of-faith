@@ -11,7 +11,7 @@ nav{
 
 
 div.card {
-  background: #C9A34D;
+  background: #c9a44dbd;
   border: 2px solid #225503;
   min-height: 350px;
   max-height:fit-content;
@@ -37,51 +37,10 @@ div.card {
 }
 
 
- /* Style the top navigation bar */
- /* .topnav {
-    display:flex;
-    background-color: #363836da;
-    position: sticky; /* Make it stick, even on scroll */
-    /* margin: 14px 0px 5px 0px;
-  } */ 
-  
-  /* Style the topnav links */
-  /* .topnav a { 
-    text-align: center;
-    text-decoration: none;    
-    border-right: 1px solid #a6a6a61e; /*Tab dividers*/
-    /* transition-duration: 0.9s;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px #0c0c0c;
-  } */ 
-
-  /* .topnav h3{
-    text-align: left;
-    color:#ffffff;
-    text-shadow: 2px 2px 4px #0c0c0c;
-  } */
-
-  /* Remove border from last list item */
-  /* a:last-child {
-    border-right: none;
-  } */
-
-   /* Active tab  */
-   /* .active {
-    background-color: #43b047;
-    color: #ffffff;
-  } */
-  
-  
-  /* Change color on hover */
-  /* .topnav a:hover:not(.active) {
-    background-color: #505050;
-    color: #b8b8b8;
-  } */
 
   .parallax-1 {
     /* The image used */
-    background-image: url('../images/GOPR0795.JPG');
+    background-image: url(../images/Sunflower-seedling.jpg);
   
     /* Full height */
     height: 100%; 
@@ -95,7 +54,7 @@ div.card {
 
   .parallax-2 {
      /* The image used */
-     background-image: url('../images/GOPR0809.JPG');
+     background-image: url(../images/sunflower-baby.jpg);
   
     /* Full height */
     height: 100%; 
@@ -104,12 +63,12 @@ div.card {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
   }
 
   .parallax-3 {
     /* The image used */
-    background-image: url('../images/GOPR0795.JPG');
+    background-image: url(../images/sunflower-angle-shot.jpg);
   
     /* Full height */
     height: 100%; 
@@ -118,13 +77,13 @@ div.card {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
   }
 
   
   
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/collab-practice-22-06/images/GOPR0771.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunflower-close-up.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
