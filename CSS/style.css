@@ -9,6 +9,25 @@ nav{
 
 }
 
+.navbar-brand{
+  font-family: 'Handlee', cursive;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+}
+
+h1{
+  font-family: 'Pangolin', cursive;
+
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+
+}
+
 .bg-brown{
     background-color: #494230d2;
 }
@@ -32,7 +51,7 @@ div.card {
   padding: .5em;
   margin: 1em 1em;
   font-size:x-large !important;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Pangolin', cursive;
   font-weight:bolder;
   color:#ffffff;
   letter-spacing: 1px;
@@ -102,6 +121,7 @@ div.card {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
   }
   
   .hero-text button {
@@ -142,6 +162,23 @@ div.card {
     padding:25px;
   }
 
+
+    /* Form styling */
+  .form-label{
+    font-size:1.25em !important;
+    font-weight: bold;
+    color:#393838;
+    font-family: 'Pangolin', cursive;
+    
+
+  }
+
+  .form-text{
+    color:#ffffff !important;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
 
   .footer {
     display: flex;
