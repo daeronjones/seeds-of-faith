@@ -3,28 +3,31 @@ body, html {
     background-color: #fceedd !important;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 
 nav{
     background-color: #494230;
 
 }
 
-.navbar-brand{
-  font-family: 'Handlee', cursive;
-  font-weight: bolder;
-  letter-spacing: 1px;
 
+.navbar-brand{
+  display: none;
 }
 
 h1{
-  font-family: 'Pangolin', cursive;
-
+  font-family: 'Pangolin', cursive !important;
+  
 }
 
 p{
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   letter-spacing: 2px;
+  /* overflow-wrap: break-word; */
 
 }
 
@@ -63,7 +66,7 @@ div.card {
 
   .parallax-1 {
     /* The image used */
-    background-image: url(../images/Sunflower-seedling.jpg);
+    background-image: url(../images/Sunflower-seedling.jpg );
   
     /* Full height */
     height: 100%; 
@@ -210,9 +213,89 @@ div.card {
 }
 
 .fa-brands{
-    color:#ffffff;
+    color:#caac03;
     font-size:3em;
     
 }
 
+/* Make the page responsive */
+/* Medium Screens */
+@media screen and (min-width: 400px) {
+   
+  .navbar-brand{
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    display:flex;
+  }
+
+  .flex-container{
+      align-items:flex-end;
+      column-gap: 1em;
+  }
+
+  .flex-h1{
+      text-align:right; 
+      z-index: 1;
+  }
+
+  .flex-item {
+      max-width:50%;
+      height:100%;
+  }
+
+  .footer-item{
+      max-width:50%;
+      height:100%;
+
+  }
+
+  .footer {
+      flex-direction: row;
+      
+  }
+
+  div.daeron{
+      z-index: 1;
+      margin-top: 9em;
+  }
+
+}
+
+/* Large Screens */
+@media screen and (min-width: 768px) {
  
+  .flex-container {
+      justify-content:flex-end;
+  }
+
+  .flex-h1 {
+      font-size: x-large !important;
+  }
+
+  .flex-item {
+      max-width:25%;
+      font-size: 2em;
+  }
+
+  .footer-item {
+      max-width:35%;
+  }
+
+  div.daeron {
+      z-index: 1;
+      margin-top: 9em;
+  }
+
+  .accordion{
+      max-width: 50%;
+      align-self: center;
+  }
+     
+}
+
+@media screen and (max-width:400px) {
+ .navbar-brand {
+    display: none;
+  }
+} 
