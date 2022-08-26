@@ -56,9 +56,10 @@ div.card {
   font-size:x-large !important;
   font-family: 'Pangolin', cursive;
   font-weight:bolder;
-  color:#ffffff;
+  color:#d8a20c;
   letter-spacing: 1px;
-
+  background-color:#494230a4;
+  border-radius: 1em;
   
 }
 
@@ -66,7 +67,7 @@ div.card {
 
   .parallax-1 {
     /* The image used */
-    background-image: url(../images/Sunflower-seedling.jpg );
+    background-image: url(../images/Sunflower-seedling-removebg-preview.png);
   
     /* Full height */
     height: 100%; 
@@ -80,7 +81,7 @@ div.card {
 
   .parallax-2 {
      /* The image used */
-     background-image: url(../images/sunflower-baby.jpg);
+     background-image: url(../images/sunflower-baby-removebg-preview.png);
   
     /* Full height */
     height: 100%; 
@@ -94,7 +95,7 @@ div.card {
 
   .parallax-3 {
     /* The image used */
-    background-image: url(../images/sunflower-angle-shot.jpg);
+    background-image: url(../images/sunflower-angle-shot-removebg-preview.png);
   
     /* Full height */
     height: 100%; 
@@ -109,7 +110,7 @@ div.card {
   
   
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sunflower-close-up.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/sunflower-close-up-removebg-preview.png);
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@ div.card {
 }
 
 .fa-brands{
-    color:#caac03;
+    color:#d8a20c;
     font-size:3em;
     
 }
